@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders dashboard component Matches the snapshot 1`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="temperature"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Temperature
+    </h1>
+    <div
+      className="temperature__h2"
+    >
+      <h2>
+        123
+      </h2>
+    </div>
+  </div>
+  <div
+    className="pressure"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Pressure
+    </h1>
+    <div
+      className="pressure__h2"
+    >
+      <h2>
+        3
+      </h2>
+    </div>
+  </div>
+  <div
+    className="humidity"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Humidity
+    </h1>
+    <div
+      className="humidity__h2"
+    >
+      <h2>
+        10
+      </h2>
+    </div>
+  </div>
+</div>
+`;
