@@ -14,6 +14,8 @@ let testTimeout: NodeJS.Timeout;
 test('TrackableEmitter changes its state after first emitted value', done => {
   const testEmitter = new TrackableEmitter();
 
+  expect(testEmitter.firstEventEmitted).toEqual(false);
+
   testEmitter.dataHandler(
     mockNext,
     data,

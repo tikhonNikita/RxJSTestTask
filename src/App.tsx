@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { Observable } from 'rxjs';
 
 import IData from './types/IData';
-import { observable } from './observable/observable';
+import configurableSubscriber from './observable/observable';
 import { Dashboard } from './components/Dashboard/Dashboard';
 
 import './App.css';
@@ -11,6 +12,8 @@ const initialDisplayEmitting = (data: IData) => {
     data.temperature !== '' && data.pressure !== '' && data.humidity !== ''
   );
 };
+
+const observable = new Observable(configurableSubscriber({}));
 
 function App() {
   const [dimensions, setDimensions] = useState({

@@ -16,7 +16,7 @@ exports[`renders dashboard component Matches the snapshot 1`] = `
       className="temperature__h2"
     >
       <h2>
-        123
+        30
       </h2>
     </div>
   </div>
@@ -32,7 +32,7 @@ exports[`renders dashboard component Matches the snapshot 1`] = `
       className="pressure__h2"
     >
       <h2>
-        3
+        30
       </h2>
     </div>
   </div>
@@ -47,9 +47,113 @@ exports[`renders dashboard component Matches the snapshot 1`] = `
     <div
       className="humidity__h2"
     >
+      <h2 />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders dashboard component Matches the snapshot 2`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="temperature"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Temperature
+    </h1>
+    <div
+      className="temperature__h2"
+    >
       <h2>
-        10
+        40
       </h2>
+    </div>
+  </div>
+  <div
+    className="pressure"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Pressure
+    </h1>
+    <div
+      className="pressure__h2"
+    >
+      <h2>
+        40
+      </h2>
+    </div>
+  </div>
+  <div
+    className="humidity"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Humidity
+    </h1>
+    <div
+      className="humidity__h2"
+    >
+      <h2 />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders dashboard component Matches the snapshot 3`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="temperature"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Temperature
+    </h1>
+    <div
+      className="temperature__h2"
+    >
+      <h2>
+        50
+      </h2>
+    </div>
+  </div>
+  <div
+    className="pressure"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Pressure
+    </h1>
+    <div
+      className="pressure__h2"
+    >
+      <h2>
+        50
+      </h2>
+    </div>
+  </div>
+  <div
+    className="humidity"
+  >
+    <h1
+      className="dashboard__h1"
+    >
+      Humidity
+    </h1>
+    <div
+      className="humidity__h2"
+    >
+      <h2 />
     </div>
   </div>
 </div>

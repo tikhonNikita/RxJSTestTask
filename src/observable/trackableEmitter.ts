@@ -14,8 +14,8 @@ export default class TrackableEmitter extends EventEmitter {
   ) => {
     return (data: string) => {
       dataCollector[dimension] = data;
-      next({ ...dataCollector });
       this.firstEventEmitted = true;
+      next({ ...dataCollector });
       timeout = setTimeout(() => {
         dataCollector[dimension] = 'N/A';
         next({ ...dataCollector });
