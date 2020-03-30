@@ -2,7 +2,7 @@ import IData from '../../types/IData';
 import TrackableEmitter from '../../observable/trackableEmitter';
 import { Dimensions } from '../../types/Dimensions';
 
-const mockNext = (data: IData) => console.log(data);
+const mockNext = (data: IData) => {};
 const data: IData = {
   temperature: '',
   pressure: '',
